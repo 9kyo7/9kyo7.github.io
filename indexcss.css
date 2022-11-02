@@ -1,53 +1,57 @@
-body
-{
-    background-color: black;
+* {
+	font-family: "Montserrat", sans-serif;
+	margin: 0;
+	padding: 0;
 }
-#a
-{
-    color: rgb(59, 255, 59);
-    background-color: black;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    display:block;
+body {
+	background-color: black;
 }
-#b
-{
-    text-decoration: none;
-    color: rgb(2, 18, 3);
+h1 {
+	color: rgb(59, 255, 59);
+	background-color: black;
+	text-align: center;
+	display: block;
 }
-.c
-{
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;  
-    margin-top: 20px;
-    width: 100px;
-    height: 100px;
-    border-style: solid;
-    border-radius: 25px;
-    background: linear-gradient(-20deg, rgb(14, 85, 55) ,rgb(31, 250, 60), rgb(79, 158, 92));
-    box-shadow: 1px 1px 20px 10px green;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-
-} 
-.c:hover
- {
-    background: linear-gradient(-20deg, rgb(14, 85, 55) ,rgb(31, 250, 60), rgb(79, 158, 92));
-    animation: gradient 7s ease infinite;
-    background-size: 400% 400%;
-    height: 100px;
- }
+a {
+	margin: auto;
+	text-decoration: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: rgb(2, 18, 3);
+	text-align: center;
+	margin-top: 25px;
+	width: 100px;
+	height: 100px;
+	border-style: solid;
+	border-radius: 35px;
+	background: linear-gradient(
+		-20deg,
+		rgb(14, 85, 55),
+		rgb(31, 250, 60),
+		rgb(79, 158, 92)
+	);
+	box-shadow: 1px 1px 20px 10px green;
+}
+a:hover {
+	background: linear-gradient(
+		-20deg,
+		rgb(15, 85, 55),
+		rgb(30, 250, 60),
+		rgb(80, 160, 95)
+	);
+	animation: gradient 7s ease infinite;
+	background-size: 400% 400%;
+	height: 100px;
+}
 @keyframes gradient {
-    0% {
-     background-position: 0% 50%;
-    }
-    50% {
-     background-position: 100% 50%;
-    }
-    100%{
-     background-position: 0% 50%;
-    }
- }
-
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
