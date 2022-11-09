@@ -7,11 +7,22 @@ body {
 	background: fixed;
 	background-image: url(https://wallpapercave.com/wp/wp3338799.gif);
 }
+header {
+	top: 0;
+	position: fixed;
+	background: black;
+	height: max-content;
+	width: 100%;
+	box-shadow: 1px 1px 20px 10px green;
+}
 h1 {
 	color: rgb(59, 255, 59);
-	background-color: black;
-	text-align: center;
-	display: block;
+	font-size: 50px;
+	background-color: alpha;
+	text-shadow: 2px 2px 8px black;
+}
+main {
+	margin-top: 80px;
 }
 a {
 	margin: auto;
