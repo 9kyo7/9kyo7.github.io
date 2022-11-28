@@ -1,0 +1,85 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Montserrat", sans-serif;
+}
+body {
+	display: flex;
+	flex-direction: column;
+	background-color: green;
+}
+header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: darkred;
+	height: 15vh;
+	text-decoration: underline;
+	border: black solid;
+	border-width: 0px 0px 3px 0px;
+	font-size: 24px;
+}
+main {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+aside.left {
+	width: 15%;
+	height: 82vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: lightgreen;
+}
+table,
+th,
+tr,
+td {
+	border: 3px solid black;
+	border-collapse: collapse;
+	padding: 10px;
+	background-color: brown;
+	cursor: crosshair;
+}
+th {
+	background-color: darkgreen;
+}
+section.main-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	background-color: alpha;
+}
+img{
+	cursor: pointer;
+	width: 400px;
+}
+aside.right {
+	width: 15%;
+	height: 82vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: lightgreen;
+}
+p.def {
+	width: 80%;
+	cursor: help;
+}
+footer {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-end;
+	text-align: center;
+	background-color: darkgreen;
+	height: 3vh;
+}
+p.foot {
+	float: right;
+}
