@@ -4,6 +4,8 @@
 	box-sizing: border-box;
 	font-family: "Montserrat", sans-serif;
 	font-size: 18px;
+	min-width: max-content;
+	min-height: max-content;
 }
 header {
 	display: flex;
