@@ -1,0 +1,57 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Montserrat", sans-serif;
+}
+header {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 10vh;
+}
+h1 {
+	color: orange;
+	text-shadow: 1px 1px 5px black;
+	font-size: 40px;
+}
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-image: url(./wielkanocbgc.svg);
+	background-size: cover;
+}
+main {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.tekst {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	width: 30%;
+	font-size: 24px;
+	text-align: justify;
+	text-shadow: 1px 1px 10px white;
+}
+.jajko1 {
+	margin: 20px;
+	width: 100px;
+	height: 100px;
+	border-radius: 80% 35% 55% 60% / 55% 35% 80% 60%;
+	transform: rotate(-45deg);
+	background: rgb(168, 180, 37);
+	background: radial-gradient(
+		circle,
+		rgb(199, 212, 60) 0%,
+		rgb(223, 225, 103) 66%,
+		rgb(207, 207, 128) 100%
+	);
+	box-shadow: 0 0 10px 1px rgb(0, 0, 0);
+}
