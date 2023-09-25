@@ -4,54 +4,48 @@
 	box-sizing: border-box;
 	font-family: "Montserrat", sans-serif;
 }
-header {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	height: 10vh;
-}
-h1 {
-	color: orange;
-	text-shadow: 1px 1px 5px black;
-	font-size: 40px;
-}
 body {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	background-image: url(./wielkanocbgc.svg);
-	background-size: cover;
-}
-main {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-}
-.tekst {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-	width: 30%;
-	font-size: 24px;
-	text-align: justify;
-	text-shadow: 1px 1px 10px white;
-}
-.jajko1 {
-	margin: 20px;
-	width: 100px;
-	height: 100px;
-	border-radius: 80% 35% 55% 60% / 55% 35% 80% 60%;
-	transform: rotate(-45deg);
-	background: rgb(168, 180, 37);
+	background: rgb(235, 130, 183);
 	background: radial-gradient(
 		circle,
-		rgb(199, 212, 60) 0%,
-		rgb(223, 225, 103) 66%,
-		rgb(207, 207, 128) 100%
+		rgba(235, 130, 183, 1) 15%,
+		rgba(224, 46, 46, 1) 80%
 	);
-	box-shadow: 0 0 10px 1px rgb(0, 0, 0);
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+table {
+	border-collapse: collapse;
+	width: 300px;
+}
+th,
+td {
+	border: 1px solid black;
+	padding: 8px;
+	text-align: center;
+	background-color: rgb(255, 255, 255);
+}
+th {
+	background-color: rgb(255, 1, 1);
+}
+div {
+	padding: 100px;
+	gap: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+img {
+	width: 300px;
+	height: 300px;
+	border: 1px black solid;
+	border-radius: 10px;
+	box-shadow: 1px 1px 10px white;
+}
+h2 {
+	text-shadow: 1px 1px 10px white;
 }
