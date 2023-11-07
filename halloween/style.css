@@ -1,0 +1,28 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Creepster", sans-serif;
+}
+body {
+	background-color: peru;
+	background-image: url("kicia.png");
+	background-size: 5%;
+	background-repeat: repeat;
+}
+main {
+	background-color: rgba(205, 133, 63, 0.5);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+img {
+	height: 500px;
+}
+h1 {
+	color: white;
+	font-size: 108px;
+	text-shadow: 1px 1px 10px black;
+}
