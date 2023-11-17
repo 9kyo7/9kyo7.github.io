@@ -5,6 +5,7 @@
 @media screen and (min-width: 1000px) {
 	body {
 		background-image: url(blob-scene-haikei.svg);
+		border-image-repeat: stretch;
 		background-size: 100%;
 		display: flex;
 		flex-direction: row;
@@ -34,6 +35,7 @@
 @media screen and (max-width: 1000px) {
 	body {
 		background-image: url(blob-scene-haikei-phone.svg);
+		border-image-repeat: stretch;
 		background-size: 100%;
 		display: flex;
 		flex-direction: column;
