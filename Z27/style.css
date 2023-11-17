@@ -1,0 +1,62 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+@media screen and (min-width: 1000px) {
+	body {
+		background-image: url(blob-scene-haikei.svg);
+		background-size: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		height: 100vh;
+	}
+	.d1 {
+		margin: 20px;
+		width: 200px;
+		height: 50px;
+		background-color: #00b890;
+		border: 10px #009473 solid;
+		outline: 10px #0e7349 solid;
+		border-radius: 20px;
+		transition: ease 1s;
+	}
+	.d1:hover {
+		transition: ease 1s;
+		background-color: #19c8c5;
+		border: 10px #14a3a1 solid;
+		outline: 10px #107f7d solid;
+		width: 220px;
+		height: 80px;
+	}
+}
+@media screen and (max-width: 1000px) {
+	body {
+		background-image: url(blob-scene-haikei-phone.svg);
+		background-size: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		height: 100vh;
+	}
+	.d1 {
+		margin: 20px;
+		width: 200px;
+		height: 50px;
+		background-color: #fbae3c;
+		border: 10px #c28327 solid;
+		outline: 10px #80500a solid;
+		border-radius: 20px;
+		transition: ease 1s;
+	}
+	.d1:hover {
+		transition: ease 1s;
+		background-color: #f0960f;
+		border: 10px #b6710a solid;
+		outline: 10px #764700 solid;
+		width: 220px;
+		height: 80px;
+	}
+}
